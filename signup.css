@@ -1,0 +1,118 @@
+/* -------------- CSS Reset -------------- */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family:  Arial, sans-serif;
+    width: 100%;
+}
+/* ------------------------------------------ */
+.container{
+    display: flex;
+}
+
+.img-container{
+    width: 60%;
+    height: 100vh;
+    background-image: url(./hokageimg.jpg);
+    background-size: cover; 
+
+    padding-left: 20px;
+}
+.img-container .darkblur{
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+    margin-right: 20px;
+    text-align: center;
+
+    /* to darken the background */
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3) );
+
+
+}
+.img-container cite{
+    position: absolute;
+    bottom: 10px;
+}
+
+.form-container{
+    /* #f4ae4c */
+    width: 100%; 
+
+    /* Created with https://www.css-gradient.com */
+    background: #AAD21F;
+    background: -webkit-linear-gradient(bottom right, #AAD21F, #4DD9F5);
+    background: -moz-linear-gradient(bottom right, #AAD21F, #4DD9F5);
+    background: linear-gradient(to top left, #AAD21F, #4DD9F5);
+
+}
+
+.info{
+    height: 20%;
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.create p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.btn{
+    background-color: #694df5;
+    border-radius: 40px;
+    width:  120px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center; 
+    padding: 3px;
+}
+
+.form{
+    /* form field design */
+    padding: 0.3rem 1rem;
+    width: 50%;
+    margin: auto;
+}
+
+.form label{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.form input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid  #f4ae4c ;
+    padding:  0.5rem 0;
+    margin-bottom: 1rem ;
+    color: #444 ;
+    font-weight: 500;
+}
+
+.form h3{
+    font-size: 3rem;
+    font-weight: 4000;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.form input:focus{
+    border: 3px solid #c44040;
+    outline: none;
+}
+
+
+
+
+
+
+
