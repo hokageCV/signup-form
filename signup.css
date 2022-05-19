@@ -23,9 +23,8 @@ body{
     width: 60%;
     height: 100vh;
     
-    /* yeh dono se center me aa rha hai image */
-    background: center url(./hokageimg.jpg);
-    background-size: cover; 
+    /* isse center me aa rha hai image */
+    background: center/cover url(./hokageimg.jpg); 
 
     padding-left: 20px;
 }
