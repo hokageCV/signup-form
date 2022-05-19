@@ -22,7 +22,9 @@ body{
 .img-container{
     width: 60%;
     height: 100vh;
-    background-image: url(./hokageimg.jpg);
+    
+    /* yeh dono se center me aa rha hai image */
+    background: center url(./hokageimg.jpg);
     background-size: cover; 
 
     padding-left: 20px;
